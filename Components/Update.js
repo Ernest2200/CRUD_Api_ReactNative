@@ -44,7 +44,7 @@ const [data, setData] = useState({
           <TextInput 
           style={styles.input} 
           placeholder="id"
-          
+          editable={false}
           onChangeText={onChangeId}
           value={data.id}/>
           <Text style={styles.text}>Ingrese el nombre del estadio</Text>
